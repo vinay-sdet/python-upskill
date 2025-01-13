@@ -1,0 +1,36 @@
+# class Dog:
+#     tricks=[]
+
+#     def __init__(self,name):
+#         self.name = name
+
+#     def add_trick(self, trick):
+#         self.tricks.append(trick)
+
+# d1 = Dog("Moti")
+# d2 = Dog("Kitti")
+# d1.add_trick("Playful")
+# d2.add_trick("Roll Over")
+# print(d1.name)
+# print(d1.tricks)
+# print(d2.name)
+# print(d2.tricks)
+
+class Dog:
+    
+
+    def __init__(self,name):
+        self.name = name
+        self.tricks=[]
+
+    def add_trick(self, trick):
+        self.tricks.append(trick)
+
+d1 = Dog("Moti")
+d2 = Dog("Kitti")
+d1.add_trick("Playful")
+d2.add_trick("Roll Over")
+print(d1.name)
+print(d1.tricks)
+print(d2.name)
+print(d2.tricks)
